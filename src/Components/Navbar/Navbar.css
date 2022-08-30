@@ -1,0 +1,43 @@
+.Slack-logo
+{
+    width: 13rem;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0rem 5rem;
+}
+.options
+{
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+}
+.signin-options
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26rem;
+    color: white;
+}
+.navbar .talk-sales
+{
+    padding: 0.7rem;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    font-weight: 600;
+}
+.navbar .try-free
+{
+    padding: 0.7rem;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    color: #541554;
+    font-weight: 600;
+}

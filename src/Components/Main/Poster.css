@@ -1,0 +1,45 @@
+.Poster-text
+{
+    width: 38rem;
+}
+.Poster-text h1
+{
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 0rem;
+}
+.Poster-text p
+{
+    font-size: 1.1rem;
+}
+.Poster-text .button-cont button
+{
+    padding: 1rem;
+    border-radius: 0.3rem;
+    color: #541554;
+    font-weight: 600;
+    border: none;
+}
+.Poster-text .button-cont button:last-child
+{
+    margin-left: 2rem;
+    align-items: center;
+    background-color: #4285f4;
+    color: white;
+}
+.Poster-text .button-cont button:last-child svg
+{
+    font-size: inherit;
+    background-color: white;
+    margin-right: 1rem;
+}
+.poster-main-cont
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem 2rem 8rem;
+}
+.video-cont
+{
+    width: 38rem;
+}

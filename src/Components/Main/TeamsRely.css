@@ -1,0 +1,88 @@
+.brief-info 
+{
+  text-align: center;
+  margin-top: 4rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.brief-info h1
+{
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+.brief-info p
+{
+    font-size: 1rem;
+}
+.brief-info button
+{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+}
+.brief-info .meet-slack-btn
+{
+    background-color: #611f69;
+    color: white;
+    margin-right: 1rem;
+}
+.brief-info .talk-sales-btn
+{
+    border: 1px solid #611f69;
+    background: transparent;
+    color: #611f69;
+}
+.statics
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.statics div
+{
+    width: 13rem;
+}
+.statics div h1
+{
+    color: #611f69;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+.statics div p
+{
+    font-weight: 700;
+    margin-top: 0;
+}
+.customer-review
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0rem 2rem 0;
+}
+.customer-review video
+{
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+.customer-review .customer-statement
+{
+    margin-left: 3rem;
+}
+.customer-review .customer-statement .statement
+{
+    font-size: 1.7rem;
+    font-weight: 100;
+    font-style: italic;
+}
+.customer-review .customer-statement .customer-name
+{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.customer-review .customer-statement .customer-position
+{
+    margin-top: 0;
+}

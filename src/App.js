@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Companies from './Components/Companies/Companies';
+import DeeperDive from './Components/Main/DeeperDive';
+import PosterAndNavbar from './Components/Main/PosterAndNavbar';
+import TeamsRely from './Components/Main/TeamsRely';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PosterAndNavbar />
+      <Companies />
+      <TeamsRely />
+      <DeeperDive />
     </div>
   );
 }

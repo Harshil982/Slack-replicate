@@ -1,0 +1,23 @@
+.companies-features-container
+{
+    background-color: #f4ede4;
+    font-family: "Nunito Sans", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 1rem;
+}
+.trusted-companies-title
+{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-top: 0;
+}
+.companies-logos-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+} 
