@@ -1,0 +1,23 @@
+.footer-container 
+{
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  margin: 4rem 7rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.63);
+  padding-bottom: 2rem;
+}
+.footer-container div p:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+.footer-container div h3
+{
+    margin-top: 0;
+}

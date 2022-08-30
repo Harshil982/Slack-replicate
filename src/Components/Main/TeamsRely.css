@@ -1,88 +1,126 @@
-.brief-info 
-{
+.brief-info {
   text-align: center;
   margin-top: 4rem;
   font-family: "Nunito Sans", sans-serif;
   font-family: "Questrial", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-.brief-info h1
-{
-    font-size: 2.8rem;
-    margin-bottom: 1rem;
+.brief-info h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
 }
-.brief-info p
-{
-    font-size: 1rem;
+.brief-info p {
+  font-size: 1rem;
 }
-.brief-info button
-{
-    border: none;
-    padding: 1rem;
-    border-radius: 0.2rem;
-    font-weight: 500;
+.brief-info button {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  font-weight: 500;
 }
-.brief-info .meet-slack-btn
-{
-    background-color: #611f69;
-    color: white;
-    margin-right: 1rem;
+.brief-info .meet-slack-btn {
+  background-color: #611f69;
+  color: white;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
-.brief-info .talk-sales-btn
-{
-    border: 1px solid #611f69;
-    background: transparent;
-    color: #611f69;
+.brief-info .talk-sales-btn {
+  border: 1px solid #611f69;
+  background: transparent;
+  color: #611f69;
+  margin-top: 1rem;
 }
-.statics
-{
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    margin: auto;
+.statics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
 }
-.statics div
-{
-    width: 13rem;
+.statics div {
+  width: 13rem;
 }
-.statics div h1
-{
-    color: #611f69;
-    margin-bottom: 0;
-    font-size: 3rem;
+.statics div h1 {
+  color: #611f69;
+  margin-bottom: 0;
+  font-size: 3rem;
 }
-.statics div p
-{
-    font-weight: 700;
-    margin-top: 0;
+.statics div p {
+  font-weight: 700;
+  margin-top: 0;
 }
-.customer-review
-{
-    display: flex;
-    justify-content: space-between;
-    margin: 5rem 0rem 2rem 0;
+.customer-review {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 5rem 0rem 2rem 0;
 }
-.customer-review video
-{
-    border-top-right-radius: 500px;
-    border-bottom-right-radius: 500px;
+.customer-review video {
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
 }
-.customer-review .customer-statement
-{
-    margin-left: 3rem;
+.customer-review .customer-statement {
+  margin-left: 3rem;
+  width: 40vw;
 }
-.customer-review .customer-statement .statement
-{
-    font-size: 1.7rem;
-    font-weight: 100;
-    font-style: italic;
+.customer-review .customer-statement .statement {
+  font-size: 1.7rem;
+  font-weight: 100;
+  font-style: italic;
 }
-.customer-review .customer-statement .customer-name
-{
-    font-weight: 600;
-    margin-bottom: 0;
+.customer-review .customer-statement .customer-name {
+  font-weight: 600;
+  margin-bottom: 0;
 }
-.customer-review .customer-statement .customer-position
-{
-    margin-top: 0;
+.customer-review .customer-statement .customer-position {
+  margin-top: 0;
+}
+.customer-review .video-cont {
+  width: 50vw;
+}
+@media screen and (max-width: 800px) {
+  .statics {
+    justify-content: center;
+    text-align: center;
+  }
+  .statics div {
+    width: 100%;
+  }
+  .customer-review .video-cont {
+    width: 100%;
+  }
+  .customer-review .customer-statement {
+    width: 100%;
+    margin: 0;
+  }
+  .customer-review {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .brief-info h1 {
+    font-size: 2rem;
+  }
+  .customer-review .customer-statement .statement {
+      font-size: 1.2rem;
+  }
+  .customer-review
+  {
+      margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .brief-info .meet-slack-btn {
+    margin-right: 0;
+  }
+  .brief-info .talk-sales-btn,
+  .brief-info .meet-slack-btn {
+    width: 80vw;
+  }
+  .brief-info p {
+    text-align: center;
+    margin: 0 1rem;
+  }
 }

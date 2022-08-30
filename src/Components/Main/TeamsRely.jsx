@@ -26,14 +26,16 @@ const TeamsRely = () => {
                 </div>
             </div>
             <div className="customer-review" >
-                <CommonVideoPlayer source={CustomerReview} />
+                <div className="video-cont" >
+                    <CommonVideoPlayer source={CustomerReview} />
+                </div>
                 <div className="customer-statement" >
                     <p className="statement" >‘We were able to create a large virtual network of employees that can communicate as though they are together. There was a lot of disruption in terms of where we worked, but in terms of how we worked – very little disruption.’</p>
                     <p className="customer-name">Mark Smith</p>
                     <p className="customer-position">Senior Technical Product Manager, T-Mobile</p>
                 </div>
             </div>
-            <p style={{textAlign : "center"}} >*Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada with a ± 2% margin of error at 95% CI (December 2021).</p>
+            <p style={{ textAlign: "center" }} >*Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada with a ± 2% margin of error at 95% CI (December 2021).</p>
         </div>
     )
 }
