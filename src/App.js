@@ -11,13 +11,13 @@ function App() {
       {/* <PosterAndNavbar /> */}
       <Companies />
       <TeamsRely />
-      {/* <DeeperDive />
+      <DeeperDive />
       <div className="welcome-to-digital-hq" >
         <h1>Welcome to your new digital HQ.</h1>
         <button className="try-free" >TRY FOR FREE</button>
         <button className="sales-talk">TALK TO SALES</button>
       </div>
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
