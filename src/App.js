@@ -1,15 +1,15 @@
 import './App.css';
-import Companies from './Components/Companies/Companies';
-import Footer from './Components/Footer/Footer';
-import DeeperDive from './Components/Main/DeeperDive';
+// import Companies from './Components/Companies/Companies';
+// import Footer from './Components/Footer/Footer';
+// import DeeperDive from './Components/Main/DeeperDive';
 import PosterAndNavbar from './Components/Main/PosterAndNavbar';
-import TeamsRely from './Components/Main/TeamsRely';
+// import TeamsRely from './Components/Main/TeamsRely';
 
 function App() {
   return (
     <div className="App">
-      {/* <PosterAndNavbar /> */}
-      <Companies />
+      <PosterAndNavbar />
+      {/* <Companies />
       <TeamsRely />
       <DeeperDive />
       <div className="welcome-to-digital-hq" >
@@ -17,7 +17,7 @@ function App() {
         <button className="try-free" >TRY FOR FREE</button>
         <button className="sales-talk">TALK TO SALES</button>
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

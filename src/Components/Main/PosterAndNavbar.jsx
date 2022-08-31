@@ -6,7 +6,7 @@ import Poster from './Poster'
 const PosterAndNavbar = () => {
     return (
         <div className="Poster-navbar" >
-            <Navbar />
+            {/* <Navbar /> */}
             <Poster />
         </div>
     )

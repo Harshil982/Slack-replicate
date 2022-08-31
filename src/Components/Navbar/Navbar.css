@@ -1,6 +1,7 @@
 .Slack-logo
 {
     width: 13rem;
+    z-index: 99;
 }
 .navbar
 {
@@ -8,20 +9,31 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 0rem 5rem;
+    padding: 0rem 3vw;
+}
+.all-options
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
 }
 .options
 {
     display: flex;
     justify-content: space-between;
-    width: 30rem;
+    width: 40vw;
+}
+.options p:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .signin-options
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 26rem;
+    width: 24rem;
     color: white;
 }
 .navbar .talk-sales
@@ -40,4 +52,72 @@
     border-radius: 0.3rem;
     color: #541554;
     font-weight: 600;
+}
+.hamburger
+{
+    font-size: 1.6rem;
+    display: none;
+}
+@media screen and (max-width : 1100px)
+{
+    .all-options,.options,.signin-options
+    {
+        flex-direction: column;
+        width: 93vw;
+        align-items: flex-start;
+        background-color: white; 
+        color: #541554;
+        text-align: center;
+    }
+    .options
+    {
+        margin-top: 5rem;
+    }
+    .all-options
+    {
+        padding: 1rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        text-align: center;
+        opacity: 0;
+        transform: translateX(100px);
+        transition: all 2s;
+    }
+    .opacity-inc
+    {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    .toggle-hamburger-color
+    {
+        color: #541554;
+    }
+    .hamburger
+    {
+        display: block;
+        z-index: 100;
+        /* color: #541554; */
+    }
+    .talk-sales,.try-free
+    {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .talk-sales
+    {
+        border: 1px solid #541554 !important;
+        color: #541554 !important;
+    }
+    .try-free
+    {
+        background-color: #541554;
+        color: white !important;
+    }
+    .signin-options svg,
+    .signin-options p,
+    .signin-options button
+    {
+        margin: 0.8rem 0;
+    }
 }
