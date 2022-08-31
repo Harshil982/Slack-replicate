@@ -95,7 +95,7 @@
 .welcome-to-digital-hq .try-free {
   background-color: white;
   border: 1px solid white;
-  color: #4a154b;
+  color: #4a154b !important;
   margin-right: 2rem;
 }
 .welcome-to-digital-hq .sales-talk {
